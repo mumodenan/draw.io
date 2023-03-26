@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T08:57:00.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="MyP7EUnbDFpl-QvtRvXP" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-26T07:31:36.987Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eDbas-TblNPLXJSNB5bw" version="21.0.8" type="github">
   <diagram name="第 1 页" id="wgCmpDbRalQ_p56tejf1">
-    <mxGraphModel dx="2568" dy="2137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2568" dy="2061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,6 +20,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2Q6_s-Yt0mzRYi0WG486-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.474;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="2Q6_s-Yt0mzRYi0WG486-2" target="2Q6_s-Yt0mzRYi0WG486-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmb_GT2MCGHIMay-ZiW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.02;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;" edge="1" parent="1" source="2Q6_s-Yt0mzRYi0WG486-2" target="oDmb_GT2MCGHIMay-ZiW-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2Q6_s-Yt0mzRYi0WG486-2" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" parent="1" vertex="1">
@@ -153,6 +156,15 @@
         </mxCell>
         <mxCell id="oDmb_GT2MCGHIMay-ZiW-2" value="成员服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1430" y="-70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmb_GT2MCGHIMay-ZiW-3" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="244" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmb_GT2MCGHIMay-ZiW-4" value="kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="970" y="280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oDmb_GT2MCGHIMay-ZiW-5" value="ckv+" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="970" y="390" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

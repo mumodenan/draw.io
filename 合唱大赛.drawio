@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T11:57:54.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="95h0rg7usvfM0e8Alf5s" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T12:16:03.262Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jwKuo8V0tfh7clOyYbRo" version="21.1.1" type="github">
   <diagram name="第 1 页" id="ovAe99_EPNH-0QUuSxY2">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IZBBLYT0i4G00LBqdzid-1" value="大赛信息查询服务" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="314.77" y="330" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZBBLYT0i4G00LBqdzid-2" target="IZBBLYT0i4G00LBqdzid-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-10" value="拉取大赛配置数据过滤" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZBBLYT0i4G00LBqdzid-9">
+          <mxGeometry x="-0.1812" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZBBLYT0i4G00LBqdzid-2" target="IZBBLYT0i4G00LBqdzid-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-22" value="拉取有效的大赛id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZBBLYT0i4G00LBqdzid-20">
+          <mxGeometry x="0.1081" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZBBLYT0i4G00LBqdzid-2" target="IZBBLYT0i4G00LBqdzid-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="368" y="203.36" width="42" height="35.28" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-16" value="同步数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IZBBLYT0i4G00LBqdzid-3" target="IZBBLYT0i4G00LBqdzid-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-3" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1">
+          <mxGeometry x="358.23" y="70" width="61.54" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-4" value="红石" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="364" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-5" value="大赛榜单查询服务" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZBBLYT0i4G00LBqdzid-6" target="IZBBLYT0i4G00LBqdzid-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-6" value="大赛流水上报" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="99.99999999999997" y="330" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZBBLYT0i4G00LBqdzid-7" target="IZBBLYT0i4G00LBqdzid-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-15" value="拉取榜单信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IZBBLYT0i4G00LBqdzid-14">
+          <mxGeometry x="0.3298" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-7" value="榜单平台" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="320.77" y="530" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IZBBLYT0i4G00LBqdzid-17" target="IZBBLYT0i4G00LBqdzid-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IZBBLYT0i4G00LBqdzid-17" value="kafka流水" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="45" y="118" width="60" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
